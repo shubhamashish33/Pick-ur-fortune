@@ -53,3 +53,7 @@ button:hover{
     background-color: #359E5A;
     cursor: pointer;
 }
+main p{
+    margin-top: 20px;
+    font-weight: bolder;
+}
