@@ -11,7 +11,6 @@ function getRandomInt(max) {
 // Main Function
 function run() {
   var choice = getRandomInt(2);
-  console.log(choice);
   if (c1.value == "" || c2.value == "") {
     alert("Enter Choices");
   } else {
