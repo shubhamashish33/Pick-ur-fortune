@@ -63,7 +63,7 @@ main p {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   margin-left: 50%;
   transform: translateX(-50%);
   color: rgba(245, 245, 245, 0.425);
@@ -76,6 +76,8 @@ footer {
     width: 80%;
   }
   footer{
+      position:static;
       font-size: 12px;
+      margin-top: 40%;
   }
 }
