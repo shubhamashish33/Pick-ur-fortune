@@ -1,7 +1,7 @@
 var c1 = document.getElementById("choice1");
 var c2 = document.getElementById("choice2");
 var result = document.getElementById("result");
-var wrapper = $(".input_fields_wrap");
+
 
 // Random Number Generator
 function getRandomInt(max) {

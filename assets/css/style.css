@@ -37,23 +37,31 @@ input:focus {
   border-color: #f59164;
 }
 
-button{
-    margin-top: 40px;
-    padding: 20px 40px 20px 40px;
-    font-weight: bold;
-    font-size: 18px;
-    border: none;
-    border-radius: 12px;
-    background-color: #f59164;
-    color: whitesmoke;
-    -webkit-transition: 0.5s;
+
+.btn-luck {
+  margin-top: 40px;
+  padding: 20px 40px 20px 40px;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f59164;
+  color: whitesmoke;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-button:hover{
-    background-color: #359E5A;
-    cursor: pointer;
+.btn-luck:hover {
+  background-color: #359e5a;
+  cursor: pointer;
 }
-main p{
-    margin-top: 20px;
-    font-weight: bolder;
+main p {
+  margin-top: 20px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 476px) {
+    header p{
+        width: 80%;
+    }
+    
 }
